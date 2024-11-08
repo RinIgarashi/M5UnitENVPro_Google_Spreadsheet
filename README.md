@@ -34,7 +34,7 @@ function doGet(e) {
     "run_in_status": e.parameter.run_in_status
   };
   sheet.appendRow(Object.values(params));
-  return ContentService.createTextOutput('sccess');
+  return ContentService.createTextOutput('success');
 }
 ```
 
